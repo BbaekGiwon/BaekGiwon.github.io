@@ -1,0 +1,27 @@
+title: Giwon Baek - Portfolio
+profile_img: /assets/img/profile.jpg
+icon_img: /assets/img/icon.webp
+
+name: "Giwon Baek"
+job: "Robotics & Computer Vision Researcher"
+
+phone_number: +82 010-5268-9514
+address: Seoul, Republic of Korea
+email: 01gwbaek@naver.com
+github_username: BBaekGiwon
+blog_url: https://www.notion.so/26edc5cd9dd88063af07e9755caff4ca
+
+# If your repo name follows the format "<user-name>.github.io", then leave the below blank.
+# Otherwise, set its value as "/<repo-name>". ex) baseurl: /resume
+baseurl:
+
+exclude:
+  - _posts/
+  - resources/
+  - vendor/
+  - GWB_CV/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

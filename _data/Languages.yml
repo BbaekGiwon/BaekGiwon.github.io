@@ -1,0 +1,7 @@
+subject: Languages
+listing-order: 6
+icon: "/assets/img/globe.svg"
+contents:
+  - title: "Korean (*Native*): <span style='color: goldenrod; margin: auto 8px; font-family: cursive;'>●●●●●</span>"
+  - title: "English (*Fluent*, OPIC AL): <span style='color: cornflowerblue; margin: auto 8px; font-family: cursive;'>●●●●○</span>"
+  - title: "Portuguese (*Intermediate*): <span style='color: mediumseagreen; margin: auto 8px; font-family: cursive;'>●●●○○</span>"

@@ -1,0 +1,13 @@
+subject: Awards
+listing-order: 4
+icon: "/assets/img/trophy.svg"
+contents:
+  - title: "**1st Place** — KEIT AI Life Solution Challenge"
+    description: "Chairman's Award of the KEIT Evaluation Committee (Like Lion AI CV Bootcamp)"
+    date: 2025
+  - title: "**2nd Place** — Hecto AI Challenge"
+    description: Deepfake detection model based on DINOv2, dataset of 0.6M images
+    date: 2026
+  - title: "**Top 6%** — LG Aimers 5th"
+    description: AI defect detection using LG Display manufacturing sensor data (750+ teams)
+    date: 2024

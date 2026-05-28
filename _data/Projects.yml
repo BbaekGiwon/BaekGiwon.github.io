@@ -1,0 +1,32 @@
+subject: Projects
+listing-order: 3
+icon: "/assets/img/clipboard-list.svg"
+contents:
+  - title: Tactile Intelligence in Robotic Hands — KIST HARI Lab
+    description:
+      - Developed an affordance-aware dexterous grasp generation pipeline from segmented 3D point clouds.
+      - Integrated vision-language models, part-aware segmentation, and grasp pose generation.
+      - Generated training data using NVIDIA Isaac Gym and deployed the system on a real robot using ROS 2.
+    date: 2026
+  - title: "Graspium ([https://graspium-official.github.io/](https://graspium-official.github.io/))"
+    description:
+      - Independent research seminar on dexterous manipulation; weekly paper discussions.
+      - Topics included dexterous grasping, multimodal VLA, reinforcement learning, and imitation learning.
+      - Presented papers including AffordGrasp, D(R,O), and UniMorphGrasp.
+    date: 2026
+  - title: KEIT AI Life Solution Challenge — 1st Place
+    description:
+      - Developed a Flutter-based video call application with CNN-based real-time deepfake detection.
+      - Performed server-side SigLIP analysis on suspicious frames and generated explainable reports using Grad-CAM visualizations.
+      - "**Award:** First Place — Chairman's Award of the KEIT Evaluation Committee"
+    date: 2025
+  - title: Hecto AI Challenge — 2nd Place
+    description:
+      - Developed a deepfake detection model based on DINOv2.
+      - Constructed a large-scale dataset of 0.6 million images for model training and preprocessing.
+    date: 2026
+  - title: LG Aimers 5th — Top 6%
+    description:
+      - Developed an AI model to detect defective products using sensor data from LG Display manufacturing processes.
+      - Ranked in the top 6% among more than 750 participating teams.
+    date: 2024

@@ -1,0 +1,34 @@
+subject: Experiences
+listing-order: 2
+icon: "/assets/img/briefcase.svg"
+contents:
+  - title: Korea Institute of Science and Technology (KIST) HARI Lab
+    role: Robotics Research Intern
+    description:
+      - Developed affordance-aware dexterous grasp generation pipelines from 3D object point clouds using vision-language models and part-aware segmentation.
+      - Applied a cross-embodiment model to transfer dexterous manipulation policies to a KISTAR hand, a custom robotic hand developed at KIST.
+      - Collected humanoid teleoperation data for dexterous manipulation tasks using VR-based teleoperation systems.
+      - Constructed dexterous grasp pose datasets for the KISTAR hand using retargeting methods, open-source models, and Isaac Gym-based validation.
+    date: Dec. 2025 - Jun. 2026
+  - title: Like Lion AI CV Bootcamp
+    role: Computer Vision Bootcamp Participant
+    description:
+      - Improved RT-DETR-based object detection for autonomous driving scenarios using a Vision Mamba encoder.
+      - Enhanced medical image captioning by integrating segmentation masks with RGB breast tissue images.
+      - Developed a real-time deepfake detection video call application; received first place in the KEIT AI Life Solution Challenge.
+    date: Sept. 2025 - Dec. 2025
+  - title: Doosan Robotics ROKEY Bootcamp
+    role: Robotics Software Bootcamp Participant
+    description:
+      - Completed intensive training in ROS 2, computer vision, and autonomous navigation.
+      - Developed a lane-following autonomous driving system for TurtleBot3 using a downward-facing camera.
+      - Built a full autonomous mobile robot pipeline using TurtleBot4, RGB-D, LiDAR, YOLO, SLAM, and Nav2.
+      - Developed a voice-guided kitchen assistant robot using YOLO segmentation, PCA-based grasp estimation, and MediaPipe gesture interaction.
+    date: Mar. 2025 - Sept. 2025
+  - title: Learning Lab Co., Ltd.
+    role: Software Engineer Intern
+    description:
+      - Participated in government-funded smart manufacturing and Data Voucher projects.
+      - Developed software pipelines for real-time manufacturing KPI collection and deployed sensor-based production monitoring systems.
+      - Collected and annotated segmentation datasets for sign language recognition and automotive defect detection tasks.
+    date: Jun. 2023 - Jul. 2023 & Jan. 2024 - Feb. 2024

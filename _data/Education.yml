@@ -1,0 +1,10 @@
+subject: Education
+listing-order: 1
+icon: "/assets/img/graduation-cap.svg"
+contents:
+  - title: Sogang University, B.S. in Computer Science and Engineering
+    description:
+      - "**Relevant Coursework:** Computer Vision, Basic Machine Learning, Deep Learning, Introduction to Artificial Intelligence, Operating Systems"
+      - "**Research Interests:** Dexterous Manipulation, Affordance-Aware Manipulation, Cross-Embodiment Learning, 3D Vision, Vision-Language-Action (VLA) Models"
+    grade: "**GPA**: `3.62/4.50`"
+    date: Mar. 2020 - Feb. 2026
