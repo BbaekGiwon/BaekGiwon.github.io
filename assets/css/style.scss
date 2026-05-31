@@ -360,7 +360,7 @@ a { text-decoration:none; }
 }
 
 // === Gallery: two-column layout (images left, content right) ===
-.item-has-gallery > .item-layout {
+.item-layout {
     display: flex;
     gap: 1.5rem;
     align-items: flex-start;
@@ -384,6 +384,24 @@ a { text-decoration:none; }
 }
 
 .item-body { flex: 1; min-width: 0; }
+
+// Fix: date getting clipped inside flex item-body — override table layout
+.item-has-gallery .content-header,
+.subproject-content .content-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.25rem 0.75rem;
+    width: 100%;
+
+    p { flex: 1 1 auto; min-width: 0; display: block; }
+    .content-date { width: auto; white-space: nowrap; display: block; }
+}
+
+// Sub-project content area (inside <details>)
+.subproject-content {
+    padding-top: 0.5rem;
+}
 
 // === GitHub link button ===
 .github-link {
@@ -442,7 +460,7 @@ details {
 }
 
 @media (max-width: 767px) {
-    .item-has-gallery > .item-layout { flex-direction: column; }
+    .item-layout { flex-direction: column; }
 
     .item-gallery {
         flex: none;

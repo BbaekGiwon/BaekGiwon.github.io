@@ -143,14 +143,34 @@
                   {% if member.subprojects %}
                     {% for proj in member.subprojects %}
                     <details>
-                      <summary>{{ proj.name }}</summary>
-                      {% if proj.description %}
-                      <ul>
-                        {% for d in proj.description %}
-                        <li class="subitem">{{ d | markdownify }}</li>
-                        {% endfor %}
-                      </ul>
-                      {% endif %}
+                      <summary>{{ proj.title }}</summary>
+                      <div class="subproject-content{% if proj.gallery %} item-has-gallery{% endif %}">
+                        {% if proj.gallery %}
+                        <div class="item-layout">
+                          <div class="item-gallery">
+                            {% for img in proj.gallery %}
+                            <img src="{{ img | prepend: site.baseurl }}" alt="project image" class="project-img">
+                            {% endfor %}
+                          </div>
+                          <div class="item-body">
+                        {% endif %}
+                          {% if proj.github %}
+                          <a class="github-link" href="{{ proj.github }}" target="_blank" rel="noopener">
+                            <img src="{{ '/assets/img/github.svg' | prepend: site.baseurl }}" alt="GitHub">GitHub
+                          </a>
+                          {% endif %}
+                          {% if proj.description %}
+                          <ul>
+                            {% for d in proj.description %}
+                            <li class="subitem">{{ d | markdownify }}</li>
+                            {% endfor %}
+                          </ul>
+                          {% endif %}
+                        {% if proj.gallery %}
+                          </div>
+                        </div>
+                        {% endif %}
+                      </div>
                     </details>
                     {% endfor %}
                   {% endif %}
