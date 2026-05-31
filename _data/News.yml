@@ -1,0 +1,12 @@
+subject: News
+listing-order: 0
+icon: "/assets/img/news.svg"
+contents:
+  - date: Feb 06, 2026
+    title: 'Presented a poster at KRoC 2026 in South Korea: "Object Invisible Property Estimation with Multimodal Haptic Data of Multi-fingered Robotic Hand".'
+  - date: Feb 2026
+    title: Awarded **2nd Place** at the Hecto AI Challenge for deepfake detection using DINOv2 (0.6M image dataset).
+  - date: Dec 2025
+    title: Awarded **1st Place** at the KEIT AI Life Solution Challenge — Chairman's Award of the KEIT Evaluation Committee.
+  - date: Dec 2025
+    title: Joined KIST HARI Lab as a Robotics Research Intern, working on affordance-aware dexterous grasp generation.

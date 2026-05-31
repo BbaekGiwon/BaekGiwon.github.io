@@ -104,6 +104,16 @@
             </div>
             {{ subject.subject }}
           </h2>
+          {% if subject.subject == "News" %}
+          <div class="news-box">
+            {% for item in subject.contents %}
+            <div class="news-item">
+              <strong class="news-date">{{ item.date }}</strong>
+              <span class="news-content">{{ item.title | markdownify }}</span>
+            </div>
+            {% endfor %}
+          </div>
+          {% else %}
           <ul>
               {% for member in subject.contents %}
               <li class="item{% if member.gallery %} item-has-gallery{% endif %}">
@@ -167,6 +177,7 @@
               </li>
               {% endfor %}
           </ul>
+          {% endif %}
         </li>
       {% endfor %}
       </ul>

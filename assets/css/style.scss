@@ -314,6 +314,51 @@ a { text-decoration:none; }
     }
 }
 
+// === News scrollable box ===
+.news-box {
+    max-height: 220px;
+    overflow-y: auto;
+    border: 1px solid var(--theme3-dim);
+    border-radius: 8px;
+    padding: 0 0.5rem;
+    scrollbar-width: thin;
+    scrollbar-color: var(--theme3-dim) transparent;
+
+    &::-webkit-scrollbar { width: 6px; }
+    &::-webkit-scrollbar-track { background: transparent; }
+    &::-webkit-scrollbar-thumb {
+        background: var(--theme3-dim);
+        border-radius: 3px;
+    }
+}
+
+.news-item {
+    display: flex;
+    gap: 1.5rem;
+    align-items: baseline;
+    padding: 0.7rem 0.25rem;
+    border-bottom: 1px solid var(--theme3-light);
+
+    &:last-child { border-bottom: none; }
+}
+
+.news-date {
+    flex: 0 0 120px;
+    font-weight: 700;
+    color: var(--theme4-dark);
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.news-content {
+    flex: 1;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--font-dark);
+
+    p { margin: 0; }
+}
+
 // === Gallery: two-column layout (images left, content right) ===
 .item-has-gallery > .item-layout {
     display: flex;
