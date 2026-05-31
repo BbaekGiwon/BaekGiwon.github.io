@@ -3,7 +3,7 @@ listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
   - title: Korea Institute of Science and Technology (KIST) HARI Lab
-    logo: /assets/img/logos/placeholder_logo.svg
+    logo: /assets/img/logos/KIST.svg
     role: Robotics Research Intern
     description:
       - Developed affordance-aware dexterous grasp generation pipelines from 3D object point clouds using vision-language models and part-aware segmentation.
@@ -13,7 +13,7 @@ contents:
     date: Dec. 2025 - Jun. 2026
 
   - title: Like Lion AI CV Bootcamp
-    logo: /assets/img/logos/placeholder_logo.svg
+    logo: /assets/img/logos/likelion.jpg
     role: Computer Vision Bootcamp Participant
     description:
       - Improved RT-DETR-based object detection for autonomous driving scenarios using a Vision Mamba encoder.
@@ -22,7 +22,7 @@ contents:
     date: Sept. 2025 - Dec. 2025
 
   - title: Doosan Robotics ROKEY Bootcamp
-    logo: /assets/img/logos/placeholder_logo.svg
+    logo: /assets/img/logos/Doosan_ROKEY.png
     role: Robotics Software Bootcamp Participant
     description:
       - Completed intensive training in ROS 2, computer vision, and autonomous navigation.
@@ -32,7 +32,7 @@ contents:
     date: Mar. 2025 - Sept. 2025
 
   - title: Learning Lab Co., Ltd.
-    logo: /assets/img/logos/placeholder_logo.svg
+    logo: /assets/img/logos/learning_lab.png
     role: Software Engineer Intern
     description:
       - Participated in government-funded smart manufacturing and Data Voucher projects.
