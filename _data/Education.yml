@@ -3,6 +3,7 @@ listing-order: 1
 icon: "/assets/img/graduation-cap.svg"
 contents:
   - title: Sogang University, B.S. in Computer Science and Engineering
+    logo: /assets/img/logos/placeholder_logo.svg
     description:
       - "**Relevant Coursework:** Computer Vision, Basic Machine Learning, Deep Learning, Introduction to Artificial Intelligence, Operating Systems"
       - "**Research Interests:** Dexterous Manipulation, Affordance-Aware Manipulation, Cross-Embodiment Learning, 3D Vision, Vision-Language-Action (VLA) Models"

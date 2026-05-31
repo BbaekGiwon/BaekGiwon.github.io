@@ -3,6 +3,7 @@ listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
   - title: Korea Institute of Science and Technology (KIST) HARI Lab
+    logo: /assets/img/logos/placeholder_logo.svg
     role: Robotics Research Intern
     description:
       - Developed affordance-aware dexterous grasp generation pipelines from 3D object point clouds using vision-language models and part-aware segmentation.
@@ -10,14 +11,18 @@ contents:
       - Collected humanoid teleoperation data for dexterous manipulation tasks using VR-based teleoperation systems.
       - Constructed dexterous grasp pose datasets for the KISTAR hand using retargeting methods, open-source models, and Isaac Gym-based validation.
     date: Dec. 2025 - Jun. 2026
+
   - title: Like Lion AI CV Bootcamp
+    logo: /assets/img/logos/placeholder_logo.svg
     role: Computer Vision Bootcamp Participant
     description:
       - Improved RT-DETR-based object detection for autonomous driving scenarios using a Vision Mamba encoder.
       - Enhanced medical image captioning by integrating segmentation masks with RGB breast tissue images.
       - Developed a real-time deepfake detection video call application; received first place in the KEIT AI Life Solution Challenge.
     date: Sept. 2025 - Dec. 2025
+
   - title: Doosan Robotics ROKEY Bootcamp
+    logo: /assets/img/logos/placeholder_logo.svg
     role: Robotics Software Bootcamp Participant
     description:
       - Completed intensive training in ROS 2, computer vision, and autonomous navigation.
@@ -25,7 +30,9 @@ contents:
       - Built a full autonomous mobile robot pipeline using TurtleBot4, RGB-D, LiDAR, YOLO, SLAM, and Nav2.
       - Developed a voice-guided kitchen assistant robot using YOLO segmentation, PCA-based grasp estimation, and MediaPipe gesture interaction.
     date: Mar. 2025 - Sept. 2025
+
   - title: Learning Lab Co., Ltd.
+    logo: /assets/img/logos/placeholder_logo.svg
     role: Software Engineer Intern
     description:
       - Participated in government-funded smart manufacturing and Data Voucher projects.

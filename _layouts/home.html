@@ -116,7 +116,7 @@
           {% else %}
           <ul>
               {% for member in subject.contents %}
-              <li class="item{% if member.gallery %} item-has-gallery{% endif %}">
+              <li class="item{% if member.gallery %} item-has-gallery{% elsif member.logo %} item-has-logo{% endif %}">
                 {% if member.gallery %}
                 <div class="item-layout">
                   <div class="item-gallery">
@@ -125,6 +125,9 @@
                     {% endfor %}
                   </div>
                   <div class="item-body">
+                {% elsif member.logo %}
+                <img class="entry-logo" src="{{ member.logo | prepend: site.baseurl }}" alt="logo">
+                <div class="entry-content">
                 {% endif %}
                   <div class="content-header">
                     {{ member.title | markdownify }}
@@ -192,6 +195,8 @@
                   {% endfor %}
                 {% if member.gallery %}
                   </div>
+                </div>
+                {% elsif member.logo %}
                 </div>
                 {% endif %}
               </li>

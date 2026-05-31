@@ -314,6 +314,26 @@ a { text-decoration:none; }
     }
 }
 
+// === Logo thumbnail (Education / Experience) ===
+.item-has-logo {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.entry-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 8px;
+    border: 1px solid var(--theme3-dim);
+    background: white;
+    padding: 4px;
+    flex-shrink: 0;
+}
+
+.entry-content { flex: 1; min-width: 0; }
+
 // === News scrollable box ===
 .news-box {
     max-height: 220px;
