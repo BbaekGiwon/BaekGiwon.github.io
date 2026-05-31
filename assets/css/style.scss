@@ -308,9 +308,101 @@ a { text-decoration:none; }
 
     .content-header + .item { margin-top: 0; }
 
-    img { 
+    img {
         aspect-ratio: auto;
         max-width: 320px;
+    }
+}
+
+// === Gallery: two-column layout (images left, content right) ===
+.item-has-gallery > .item-layout {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.item-gallery {
+    flex: 0 0 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#contents .project-img {
+    width: 100%;
+    max-width: none;
+    border-radius: 8px;
+    object-fit: cover;
+    aspect-ratio: 16 / 10;
+    background: var(--theme3-medium);
+    display: block;
+}
+
+.item-body { flex: 1; min-width: 0; }
+
+// === GitHub link button ===
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    margin-left: 8px;
+    border-radius: 6px;
+    background: var(--font-dark);
+    color: white !important;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none !important;
+    vertical-align: middle;
+
+    img {
+        width: 14px !important;
+        height: 14px !important;
+        max-width: none !important;
+        aspect-ratio: 1 !important;
+        filter: invert(1);
+    }
+}
+
+// === Collapsible sub-projects ===
+details {
+    border-left: 3px solid var(--theme3-dim);
+    padding-left: 0.75rem;
+    margin: 0.6rem 0;
+
+    summary {
+        cursor: pointer;
+        font-weight: 600;
+        color: var(--theme4-dark);
+        padding: 0.25rem 0;
+        user-select: none;
+        list-style: none;
+
+        &::-webkit-details-marker { display: none; }
+
+        &::before {
+            content: "▶  ";
+            font-size: 0.65em;
+            color: var(--theme3-dark);
+            display: inline-block;
+            transition: transform 0.2s;
+        }
+    }
+
+    &[open] > summary::before { transform: rotate(90deg); }
+
+    summary:hover { color: var(--theme2-dark); }
+
+    ul { margin-top: 0.4rem; margin-bottom: 0.4rem; }
+}
+
+@media (max-width: 767px) {
+    .item-has-gallery > .item-layout { flex-direction: column; }
+
+    .item-gallery {
+        flex: none;
+        width: 100%;
+        flex-direction: row;
     }
 }
 

@@ -2,30 +2,99 @@ subject: Projects
 listing-order: 3
 icon: "/assets/img/clipboard-list.svg"
 contents:
+  # ── Research ──────────────────────────────────────────────
   - title: Tactile Intelligence in Robotic Hands — KIST HARI Lab
+    github: "https://github.com/PLACEHOLDER"
+    gallery:
+      - /assets/img/placeholder.svg
+      - /assets/img/placeholder.svg
     description:
       - Developed an affordance-aware dexterous grasp generation pipeline from segmented 3D point clouds.
       - Integrated vision-language models, part-aware segmentation, and grasp pose generation.
-      - Generated training data using NVIDIA Isaac Gym and deployed the system on a real robot using ROS 2.
+      - Generated training data using NVIDIA Isaac Gym and deployed on a real robot via ROS 2.
     date: 2026
+
   - title: "Graspium ([https://graspium-official.github.io/](https://graspium-official.github.io/))"
+    gallery:
+      - /assets/img/placeholder.svg
+      - /assets/img/placeholder.svg
     description:
       - Independent research seminar on dexterous manipulation; weekly paper discussions.
       - Topics included dexterous grasping, multimodal VLA, reinforcement learning, and imitation learning.
       - Presented papers including AffordGrasp, D(R,O), and UniMorphGrasp.
     date: 2026
-  - title: KEIT AI Life Solution Challenge — 1st Place
+
+  # ── Bootcamp Sub-projects ──────────────────────────────────
+  - title: "**Like Lion AI CV Bootcamp** — 3 Sub-projects"
+    github: "https://github.com/PLACEHOLDER"
+    gallery:
+      - /assets/img/placeholder.svg
+      - /assets/img/placeholder.svg
+    subprojects:
+      - name: "🚗 RT-DETR 자율주행 Object Detection"
+        description:
+          - Vision Mamba encoder를 적용해 RT-DETR 기반 자율주행 객체 탐지 성능 향상
+          - "Technology: PyTorch, RT-DETR, Vision Mamba"
+      - name: "🏥 의료 이미지 Captioning"
+        description:
+          - 분할 마스크와 RGB 유방 조직 이미지를 결합해 의료 이미지 캡셔닝 성능 향상
+          - "Technology: PyTorch, Segmentation, Transformer"
+      - name: "🎭 딥페이크 탐지 영상통화 앱 — KEIT AI Challenge 1위"
+        description:
+          - CNN 기반 실시간 딥페이크 탐지 기능이 내장된 Flutter 영상통화 앱 개발
+          - SigLIP 서버 분석 및 Grad-CAM 시각화로 설명 가능한 탐지 리포트 생성
+          - "Technology: Flutter, CNN, SigLIP, Grad-CAM"
+    date: Sept. 2025 - Dec. 2025
+
+  - title: "**Doosan Robotics ROKEY Bootcamp** — 4 Sub-projects"
+    github: "https://github.com/PLACEHOLDER"
+    gallery:
+      - /assets/img/placeholder.svg
+      - /assets/img/placeholder.svg
+    subprojects:
+      - name: "🚗 TurtleBot3 차선 추종 자율주행"
+        description:
+          - 하방 카메라를 이용한 TurtleBot3 차선 추종 자율주행 시스템 개발
+          - Gazebo 시뮬레이션에서 실제 로봇까지 Digital Twin 배포 경험
+          - "Technology: ROS 2, OpenCV, TurtleBot3, Gazebo"
+      - name: "🤖 TurtleBot4 자율 이동 로봇"
+        description:
+          - RGB-D 카메라, LiDAR, YOLO, SLAM, Nav2를 결합한 완전 자율 이동 로봇 파이프라인 구현
+          - "Technology: ROS 2, TurtleBot4, YOLO, SLAM, Nav2"
+      - name: "🍳 음성 안내 주방 보조 로봇"
+        description:
+          - YOLO segmentation, PCA 기반 파지 방향 추정, MediaPipe 손 제스처 인식을 결합한 주방 보조 로봇 개발
+          - "Technology: ROS 2, YOLO, PCA, MediaPipe"
+      - name: "🥩 삼겹살 그릴링 로봇 서비스"
+        description:
+          - 삼겹살을 자동으로 굽는 로봇 서비스 시스템 설계 및 구현
+          - "Technology: ROS 2, Computer Vision"
+    date: Mar. 2025 - Sept. 2025
+
+  # ── Competitions ──────────────────────────────────────────
+  - title: "KEIT AI Life Solution Challenge — **1st Place**"
+    gallery:
+      - /assets/img/placeholder.svg
+      - /assets/img/placeholder.svg
     description:
-      - Developed a Flutter-based video call application with CNN-based real-time deepfake detection.
-      - Performed server-side SigLIP analysis on suspicious frames and generated explainable reports using Grad-CAM visualizations.
+      - Developed a Flutter-based video call app with CNN-based real-time deepfake detection.
+      - Performed server-side SigLIP analysis on suspicious frames and generated Grad-CAM explainability reports.
       - "**Award:** First Place — Chairman's Award of the KEIT Evaluation Committee"
     date: 2025
-  - title: Hecto AI Challenge — 2nd Place
+
+  - title: "Hecto AI Challenge — **2nd Place**"
+    gallery:
+      - /assets/img/placeholder.svg
+      - /assets/img/placeholder.svg
     description:
       - Developed a deepfake detection model based on DINOv2.
-      - Constructed a large-scale dataset of 0.6 million images for model training and preprocessing.
+      - Constructed a large-scale dataset of 0.6 million images for training and preprocessing.
     date: 2026
-  - title: LG Aimers 5th — Top 6%
+
+  - title: "LG Aimers 5th — **Top 6%**"
+    gallery:
+      - /assets/img/placeholder.svg
+      - /assets/img/placeholder.svg
     description:
       - Developed an AI model to detect defective products using sensor data from LG Display manufacturing processes.
       - Ranked in the top 6% among more than 750 participating teams.

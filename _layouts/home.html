@@ -106,9 +106,23 @@
           </h2>
           <ul>
               {% for member in subject.contents %}
-              <li class="item">
+              <li class="item{% if member.gallery %} item-has-gallery{% endif %}">
+                {% if member.gallery %}
+                <div class="item-layout">
+                  <div class="item-gallery">
+                    {% for img in member.gallery %}
+                    <img src="{{ img | prepend: site.baseurl }}" alt="project image" class="project-img">
+                    {% endfor %}
+                  </div>
+                  <div class="item-body">
+                {% endif %}
                   <div class="content-header">
                     {{ member.title | markdownify }}
+                    {% if member.github %}
+                    <a class="github-link" href="{{ member.github }}" target="_blank" rel="noopener">
+                      <img src="{{ '/assets/img/github.svg' | prepend: site.baseurl }}" alt="GitHub">GitHub
+                    </a>
+                    {% endif %}
                     {% if member.date %}
                       <span class="content-date">
                         <img src="{{ '/assets/img/calendar.webp' | prepend: site.baseurl}}" alt="date">
@@ -116,8 +130,23 @@
                       </span>
                     {% endif %}
                   </div>
+                  {% if member.subprojects %}
+                    {% for proj in member.subprojects %}
+                    <details>
+                      <summary>{{ proj.name }}</summary>
+                      {% if proj.description %}
+                      <ul>
+                        {% for d in proj.description %}
+                        <li class="subitem">{{ d | markdownify }}</li>
+                        {% endfor %}
+                      </ul>
+                      {% endif %}
+                    </details>
+                    {% endfor %}
+                  {% endif %}
                   {% for item in member %}
-                    {% if item[0] != "title" and item[0] != "date" %}
+                    {% assign key = item[0] %}
+                    {% if key != "title" and key != "date" and key != "gallery" and key != "github" and key != "subprojects" %}
                       {% if item[1].first %}
                         <ul>
                           {% for subitem in item[1] %}
@@ -131,6 +160,10 @@
                       {% endif %}
                     {% endif %}
                   {% endfor %}
+                {% if member.gallery %}
+                  </div>
+                </div>
+                {% endif %}
               </li>
               {% endfor %}
           </ul>
