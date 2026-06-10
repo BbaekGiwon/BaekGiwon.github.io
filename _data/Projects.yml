@@ -14,7 +14,8 @@ contents:
       - Generated training data using NVIDIA Isaac Gym and deployed on a real robot via ROS 2.
     date: 2026
 
-  - title: "Graspium ([https://graspium-official.github.io/](https://graspium-official.github.io/))"
+  - title: "Graspium"
+    github: "https://graspium-official.github.io/"
     gallery:
       - /assets/img/placeholder.svg
       - /assets/img/placeholder.svg
