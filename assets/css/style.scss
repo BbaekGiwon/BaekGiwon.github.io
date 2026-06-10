@@ -334,6 +334,8 @@ a { text-decoration:none; }
 
 .entry-content { flex: 1; min-width: 0; }
 
+.item-has-logo .content-header::before { visibility: hidden !important; }
+
 // === News scrollable box ===
 .news-box {
     max-height: 220px;
@@ -579,7 +581,7 @@ details {
         .content-header {
             p { font-size: 18px; }
 
-            &:before{ visibility: visible !important; }
+            // &:before{ visibility: visible !important; }
         }
 
         .content-header p,
