@@ -4,10 +4,9 @@ icon: "/assets/img/clipboard-list.svg"
 contents:
   # ── Research ──────────────────────────────────────────────
   - title: Tactile Intelligence in Robotic Hands — KIST HARI Lab
-    github: "https://github.com/PLACEHOLDER"
     gallery:
-      - /assets/img/placeholder.svg
-      - /assets/img/placeholder.svg
+      - /assets/img/projects/proj_KIST_01.png
+      - /assets/img/projects/proj_KIST_02.gif
     description:
       - Developed an affordance-aware dexterous grasp generation pipeline from segmented 3D point clouds.
       - Integrated vision-language models, part-aware segmentation, and grasp pose generation.
