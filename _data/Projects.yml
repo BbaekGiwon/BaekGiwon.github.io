@@ -16,8 +16,8 @@ contents:
   - title: "Graspium"
     github: "https://graspium-official.github.io/"
     gallery:
-      - /assets/img/placeholder.svg
-      - /assets/img/placeholder.svg
+      - /assets/img/projects/proj_Graspium_01.png
+      - /assets/img/projects/proj_Graspium_02.png
     description:
       - Independent research seminar on dexterous manipulation; weekly paper discussions.
       - Topics included dexterous grasping, multimodal VLA, reinforcement learning, and imitation learning.
@@ -31,8 +31,7 @@ contents:
       - title: "RT-DETR 자율주행 Object Detection"
         github: "https://github.com/BbaekGiwon/AICV_pro1"
         gallery:
-          - /assets/img/placeholder.svg
-          - /assets/img/placeholder.svg
+          - /assets/img/projects/proj_AICV01_01.png
         description:
           - Vision Mamba encoder를 적용해 RT-DETR 기반 자율주행 객체 탐지 성능 향상
           - "Technology: PyTorch, RT-DETR, Vision Mamba"
@@ -40,8 +39,7 @@ contents:
       - title: "의료 이미지 Captioning"
         github: "https://github.com/BbaekGiwon/AICV_pro2"
         gallery:
-          - /assets/img/placeholder.svg
-          - /assets/img/placeholder.svg
+          - /assets/img/projects/proj_AICV02_01.png
         description:
           - 분할 마스크와 RGB 유방 조직 이미지를 결합해 의료 이미지 캡셔닝 성능 향상
           - "Technology: PyTorch, Segmentation, Transformer"
