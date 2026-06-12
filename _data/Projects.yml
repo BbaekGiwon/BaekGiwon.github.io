@@ -24,6 +24,23 @@ contents:
       - Presented papers including AffordGrasp, D(R,O), and UniMorphGrasp.
     date: 2026
 
+  - title: "Hecto AI Challenge — **2nd Place**"
+    gallery:
+      - /assets/img/projects/proj_HECTOAI_01.jpg
+    description:
+      - Developed a deepfake detection model based on DINOv2.
+      - Constructed a large-scale dataset of 0.6 million images for training and preprocessing.
+    date: 2026
+
+  - title: "KEIT AI Life Solution Challenge — **1st Place**"
+    gallery:
+      - /assets/img/projects/proj_AIsolution_01.jpg
+    description:
+      - Developed a Flutter-based video call app with CNN-based real-time deepfake detection.
+      - Performed server-side SigLIP analysis on suspicious frames and generated Grad-CAM explainability reports.
+      - "**Award:** First Place — Chairman's Award of the KEIT Evaluation Committee"
+    date: 2025
+
   # ── Bootcamp Sub-projects ──────────────────────────────────
   - title: "**Like Lion AI CV Bootcamp** — 3 Sub-projects"
     date: Sept. 2025 - Dec. 2025
@@ -47,8 +64,7 @@ contents:
       - title: "딥페이크 탐지 영상통화 앱 — KEIT AI Challenge 1위"
         github: "https://github.com/BbaekGiwon/AICV_proj3"
         gallery:
-          - /assets/img/placeholder.svg
-          - /assets/img/placeholder.svg
+          - /assets/img/projects/proj_AICV03_01.gif
         description:
           - CNN 기반 실시간 딥페이크 탐지 기능이 내장된 Flutter 영상통화 앱 개발
           - SigLIP 서버 분석 및 Grad-CAM 시각화로 설명 가능한 탐지 리포트 생성
@@ -60,8 +76,7 @@ contents:
       - title: "TurtleBot3 차선 추종 자율주행"
         github: "https://github.com/BbaekGiwon/ROKEY_proj1"
         gallery:
-          - /assets/img/placeholder.svg
-          - /assets/img/placeholder.svg
+          - /assets/img/projects/proj_ROKEY01_01.gif
         description:
           - 하방 카메라를 이용한 TurtleBot3 차선 추종 자율주행 시스템 개발
           - Gazebo 시뮬레이션에서 실제 로봇까지 Digital Twin 배포 경험
@@ -70,8 +85,7 @@ contents:
       - title: "TurtleBot4 자율 이동 로봇"
         github: "https://github.com/BbaekGiwon/ROKEY_proj2"
         gallery:
-          - /assets/img/placeholder.svg
-          - /assets/img/placeholder.svg
+          - /assets/img/projects/proj_ROKEY01_02.gif
         description:
           - RGB-D 카메라, LiDAR, YOLO, SLAM, Nav2를 결합한 완전 자율 이동 로봇 파이프라인 구현
           - "Technology: ROS 2, TurtleBot4, YOLO, SLAM, Nav2"
@@ -79,8 +93,7 @@ contents:
       - title: "삼겹살 그릴링 로봇 서비스"
         github: "https://github.com/BbaekGiwon/ROKEY_proj3"
         gallery:
-          - /assets/img/placeholder.svg
-          - /assets/img/placeholder.svg
+          - /assets/img/projects/proj_ROKEY03_01.gif
         description:
           - 삼겹살을 자동으로 굽는 로봇 서비스 시스템 설계 및 구현
           - "Technology: ROS 2, Computer Vision"
@@ -88,37 +101,14 @@ contents:
       - title: "음성 안내 주방 보조 로봇"
         github: "https://github.com/BbaekGiwon/ROKEY_proj4"
         gallery:
-          - /assets/img/placeholder.svg
-          - /assets/img/placeholder.svg
+          - /assets/img/projects/proj_ROKEY04_01.gif
         description:
           - YOLO segmentation, PCA 기반 파지 방향 추정, MediaPipe 손 제스처 인식을 결합한 주방 보조 로봇 개발
           - "Technology: ROS 2, YOLO, PCA, MediaPipe"
 
-
-  # ── Competitions ──────────────────────────────────────────
-  - title: "KEIT AI Life Solution Challenge — **1st Place**"
-    gallery:
-      - /assets/img/placeholder.svg
-      - /assets/img/placeholder.svg
-    description:
-      - Developed a Flutter-based video call app with CNN-based real-time deepfake detection.
-      - Performed server-side SigLIP analysis on suspicious frames and generated Grad-CAM explainability reports.
-      - "**Award:** First Place — Chairman's Award of the KEIT Evaluation Committee"
-    date: 2025
-
-  - title: "Hecto AI Challenge — **2nd Place**"
-    gallery:
-      - /assets/img/placeholder.svg
-      - /assets/img/placeholder.svg
-    description:
-      - Developed a deepfake detection model based on DINOv2.
-      - Constructed a large-scale dataset of 0.6 million images for training and preprocessing.
-    date: 2026
-
   - title: "LG Aimers 5th — **Top 6%**"
     gallery:
-      - /assets/img/placeholder.svg
-      - /assets/img/placeholder.svg
+      - /assets/img/projects/proj_LGAimers_01.png
     description:
       - Developed an AI model to detect defective products using sensor data from LG Display manufacturing processes.
       - Ranked in the top 6% among more than 750 participating teams.
