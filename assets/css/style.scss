@@ -400,7 +400,7 @@ a { text-decoration:none; }
     max-width: none;
     border-radius: 8px;
     object-fit: contain;
-    aspect-ratio: auto;
+    aspect-ratio: 16 / 10;
     background: white;
     display: block;
 }
