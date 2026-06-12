@@ -9,13 +9,14 @@ contents:
       - Developed affordance-aware dexterous grasp generation pipelines from 3D object point clouds using vision-language models and part-aware segmentation.
       - Applied a cross-embodiment model to transfer dexterous manipulation policies to a KISTAR hand, a custom robotic hand developed at KIST.
       - Collected humanoid teleoperation data for dexterous manipulation tasks using VR-based teleoperation systems.
-      - Constructed dexterous grasp pose datasets for the KISTAR hand using retargeting methods, open-source models, and Isaac Gym-based validation.
+      - Constructed dexterous grasp pose datasets for the KISTAR hand using Optimization open-source models, and Isaac Gym-based validation.
     date: Dec. 2025 - Jun. 2026
 
   - title: Like Lion AI CV Bootcamp
     logo: /assets/img/logos/likelion.jpg
     role: Computer Vision Bootcamp Participant
     description:
+      - Completed intensive training in computer vision and deep learning.
       - Improved RT-DETR-based object detection for autonomous driving scenarios using a Vision Mamba encoder.
       - Enhanced medical image captioning by integrating segmentation masks with RGB breast tissue images.
       - Developed a real-time deepfake detection video call application; received first place in the KEIT AI Life Solution Challenge.
@@ -38,4 +39,5 @@ contents:
       - Participated in government-funded smart manufacturing and Data Voucher projects.
       - Developed software pipelines for real-time manufacturing KPI collection and deployed sensor-based production monitoring systems.
       - Collected and annotated segmentation datasets for sign language recognition and automotive defect detection tasks.
+      - Provided on-site deployment, maintenance, and technical support for industrial clients.
     date: Jun. 2023 - Jul. 2023 & Jan. 2024 - Feb. 2024

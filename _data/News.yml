@@ -3,7 +3,7 @@ listing-order: 0
 icon: "/assets/img/news.svg"
 contents:
   - date: Mar 2026
-    title: Awarded **2nd Place** at the Hecto AI Challenge for deepfake detection using DINOv2 (0.6M image dataset).
+    title: Awarded **2nd Place** at the Hecto AI Challenge for deepfake detection using DINOv3 (0.6M image dataset).
   - date: Jan 2026
     title: Awarded **1st Place** at the KEIT AI Life Solution Challenge — Chairman's Award of the KEIT Evaluation Committee.
   - date: Dec 2025
