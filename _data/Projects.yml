@@ -27,6 +27,7 @@ contents:
   - title: "Hecto AI Challenge — **2nd Place**"
     gallery:
       - /assets/img/projects/proj_HECTOAI_01.jpg
+      - /assets/img/projects/proj_HECTOAI_02.jpeg
     description:
       - Developed a deepfake detection model based on DINOv2.
       - Constructed a large-scale dataset of 0.6 million images for training and preprocessing.
@@ -35,6 +36,7 @@ contents:
   - title: "KEIT AI Life Solution Challenge — **1st Place**"
     gallery:
       - /assets/img/projects/proj_AIsolution_01.jpg
+      - /assets/img/projects/proj_AIsolution_02.jpeg
     description:
       - Developed a Flutter-based video call app with CNN-based real-time deepfake detection.
       - Performed server-side SigLIP analysis on suspicious frames and generated Grad-CAM explainability reports.
@@ -108,7 +110,7 @@ contents:
 
   - title: "LG Aimers 5th — **Top 6%**"
     gallery:
-      - /assets/img/projects/proj_LGAimers_01.png
+      - /assets/img/projects/proj_LGAimers_01.jpeg
     description:
       - Developed an AI model to detect defective products using sensor data from LG Display manufacturing processes.
       - Ranked in the top 6% among more than 750 participating teams.
