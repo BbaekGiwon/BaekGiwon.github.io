@@ -444,6 +444,18 @@ a { text-decoration:none; }
     display: block;
 }
 
+.project-link {
+    display: block;
+    border-radius: 8px;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+    &:hover,
+    &:focus {
+        box-shadow: 0 10px 24px rgba(32, 36, 36, 0.16);
+        transform: translateY(-2px);
+    }
+}
+
 .item-body { flex: 1; min-width: 0; }
 
 // Fix: date getting clipped inside flex item-body — override table layout

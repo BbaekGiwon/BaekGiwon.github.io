@@ -125,7 +125,20 @@
                 <div class="item-layout">
                   <div class="item-gallery">
                     {% for img in member.gallery %}
-                    <img src="{{ img | prepend: site.baseurl }}" alt="project image" class="project-img">
+                    {% if img.image %}
+                      {% assign image_src = img.image %}
+                      {% assign image_link = img.link %}
+                    {% else %}
+                      {% assign image_src = img %}
+                      {% assign image_link = nil %}
+                    {% endif %}
+                    {% if image_link %}
+                    <a class="project-link" href="{{ image_link }}" target="_blank" rel="noopener">
+                      <img src="{{ image_src | prepend: site.baseurl }}" alt="project image" class="project-img">
+                    </a>
+                    {% else %}
+                    <img src="{{ image_src | prepend: site.baseurl }}" alt="project image" class="project-img">
+                    {% endif %}
                     {% endfor %}
                   </div>
                   <div class="item-body">
@@ -156,7 +169,20 @@
                         <div class="item-layout">
                           <div class="item-gallery">
                             {% for img in proj.gallery %}
-                            <img src="{{ img | prepend: site.baseurl }}" alt="project image" class="project-img">
+                            {% if img.image %}
+                              {% assign image_src = img.image %}
+                              {% assign image_link = img.link %}
+                            {% else %}
+                              {% assign image_src = img %}
+                              {% assign image_link = nil %}
+                            {% endif %}
+                            {% if image_link %}
+                            <a class="project-link" href="{{ image_link }}" target="_blank" rel="noopener">
+                              <img src="{{ image_src | prepend: site.baseurl }}" alt="project image" class="project-img">
+                            </a>
+                            {% else %}
+                            <img src="{{ image_src | prepend: site.baseurl }}" alt="project image" class="project-img">
+                            {% endif %}
                             {% endfor %}
                           </div>
                           <div class="item-body">
