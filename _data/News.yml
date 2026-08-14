@@ -2,6 +2,8 @@ subject: News
 listing-order: 0
 icon: "/assets/img/news.svg"
 contents:
+  - date: Aug 2026
+    title: Joined Korea University RI Lab as a Robotics Research Intern under the supervision of Sungjoon Choi, working on Vision-Language-Action Model.
   - date: Mar 2026
     title: Awarded **2nd Place** at the Hecto AI Challenge for deepfake detection using DINOv3 (0.6M image dataset).
   - date: Jan 2026
