@@ -6,7 +6,9 @@ contents:
     logo: /assets/img/logos/KU.svg
     role: Robotics Research Intern
     description:
-      - Participating in RLWRD projects.(ongoing)
+      - Participating in RLWRD projects on vision-language-action (VLA) learning for humanoid manipulation.
+      - Developing data collection and training pipelines for bimanual manipulation using teleoperation demonstrations.
+      - Exploring VLM-based automated labeling of subtask instructions for VLA training data.
     date: Aug. 2026 - Feb. 2027
 
   - title: Korea Institute of Science and Technology (KIST) [HARI Lab](https://sites.google.com/view/harilab/home?authuser=0)
