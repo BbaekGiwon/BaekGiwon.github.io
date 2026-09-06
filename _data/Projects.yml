@@ -21,7 +21,7 @@ contents:
     description:
       - Developed an affordance-aware dexterous grasp generation pipeline from segmented 3D point clouds.
       - Made [a modular grasping framework](https://github.com/BbaekGiwon/Topdown_Grasp) with integrating Large-Language models, part-aware segmentation, and grasp pose generation.
-      - Generated [training data](https://github.com/BbaekGiwon/DGN_KISTAR) using NVIDIA Isaac Gym and deployed on a real robot via [ROS 2](https://github.com/BbaekGiwon/Dex_ROS_GWB).
+      - Generated [training data](https://github.com/BbaekGiwon/DGN_KISTAR) using NVIDIA Isaac Gym and deployed on a [real robot](https://github.com/BbaekGiwon/Dex_ROS_GWB) via [ROS 2](https://github.com/BbaekGiwon/Franka_KISTAR_R_Exp_GWB).
     date: 2026
 
   - title: "Graspium"
