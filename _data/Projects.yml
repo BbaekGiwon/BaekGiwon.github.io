@@ -13,14 +13,15 @@ contents:
 
 
   - title: Tactile Intelligence in Robotic Hands — [KIST HARI Lab](https://sites.google.com/view/harilab/home?authuser=0)
+    github: "https://github.com/BbaekGiwon/Topdown_Grasp"
     gallery:
       - /assets/img/projects/proj_KIST_01.png
       - image: /assets/img/projects/proj_KIST_02.gif
         link: https://youtu.be/Eez1U79NXr4
     description:
       - Developed an affordance-aware dexterous grasp generation pipeline from segmented 3D point clouds.
-      - Made a modular grasping framework with integrating Large-Language models, part-aware segmentation, and grasp pose generation.
-      - Generated training data using NVIDIA Isaac Gym and deployed on a real robot via ROS 2.
+      - Made [a modular grasping framework](https://github.com/BbaekGiwon/Topdown_Grasp) with integrating Large-Language models, part-aware segmentation, and grasp pose generation.
+      - Generated [training data](https://github.com/BbaekGiwon/DGN_KISTAR) using NVIDIA Isaac Gym and deployed on a real robot via [ROS 2](https://github.com/BbaekGiwon/Dex_ROS_GWB).
     date: 2026
 
   - title: "Graspium"
