@@ -36,6 +36,7 @@ contents:
     date: 2026
 
   - title: "Hecto AI Challenge — **2nd Place**"
+    github: "https://github.com/BbaekGiwon/Hecto-AI_Challenge"
     gallery:
       - /assets/img/projects/proj_HECTOAI_01.jpg
       - /assets/img/projects/proj_HECTOAI_02.jpeg
@@ -45,6 +46,7 @@ contents:
     date: 2026
 
   - title: "KEIT AI Life Solution Challenge — **1st Place**"
+    github: "https://github.com/BbaekGiwon/AICV_proj3"
     gallery:
       - /assets/img/projects/proj_AIsolution_01.jpg
       - /assets/img/projects/proj_AIsolution_02.jpeg
@@ -59,19 +61,19 @@ contents:
     date: Sept. 2025 - Dec. 2025
     subprojects:
       - title: "RT-DETR-Based Autonomous Driving Object Detection"
-        github: "..."
+        github: "https://github.com/BbaekGiwon/AICV_pro1"
         description:
           - Improved autonomous driving object detection performance using a Vision Mamba encoder integrated with RT-DETR.
           - "Technology: PyTorch, RT-DETR, Vision Mamba"
 
       - title: "Medical Image Captioning"
-        github: "..."
+        github: "https://github.com/BbaekGiwon/AICV_pro2"
         description:
           - Enhanced medical image captioning by combining breast tissue RGB images with segmentation masks.
           - "Technology: PyTorch, Segmentation, Transformer"
 
       - title: "Deepfake Detection Video Calling Application — 1st Place, KEIT AI Challenge"
-        github: "..."
+        github: "https://github.com/BbaekGiwon/AICV_proj3"
         description:
           - Developed a Flutter-based video calling application with real-time deepfake detection.
           - Generated explainable detection reports using SigLIP-based server-side analysis and Grad-CAM visualizations.
@@ -81,26 +83,26 @@ contents:
     date: Mar. 2025 - Sept. 2025
     subprojects:
       - title: "Lane Following Autonomous Navigation with TurtleBot3"
-        github: "..."
+        github: "https://github.com/BbaekGiwon/ROKEY_proj1"
         description:
           - Developed a lane-following autonomous navigation system using a downward-facing camera on TurtleBot3.
           - Deployed the system from Gazebo simulation to a real robot through a digital twin workflow.
           - "Technology: ROS 2, OpenCV, TurtleBot3, Gazebo"
 
       - title: "Autonomous Mobile Robot with TurtleBot4"
-        github: "..."
+        github: "https://github.com/BbaekGiwon/ROKEY_proj2"
         description:
           - Implemented a fully autonomous mobile robot pipeline integrating RGB-D cameras, LiDAR, YOLO, SLAM, and Nav2.
           - "Technology: ROS 2, TurtleBot4, YOLO, SLAM, Nav2"
 
       - title: "Autonomous Samgyeopsal Grilling Robot Service"
-        github: "..."
+        github: "https://github.com/BbaekGiwon/ROKEY_proj3"
         description:
           - Designed and developed a robotic service system for automated pork belly grilling.
           - "Technology: ROS 2"
 
       - title: "Voice-Guided Kitchen Assistant Robot"
-        github: "..."
+        github: "https://github.com/BbaekGiwon/ROKEY_proj4"
         description:
           - Developed a kitchen assistant robot combining YOLO-based segmentation, PCA-based grasp pose estimation, and MediaPipe hand gesture recognition.
           - "Technology: ROS 2, YOLO, PCA, MediaPipe"
