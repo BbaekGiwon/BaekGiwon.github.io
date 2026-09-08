@@ -3,7 +3,7 @@ listing-order: 3
 icon: "/assets/img/clipboard-list.svg"
 contents:
   # ── Research ──────────────────────────────────────────────
-  - title: RLWRD Conveyor Demo — [KU RI Lab](https://sites.google.com/view/sungjoon-choi/home)
+  - title: RLWRLD Conveyor Demo — [KU RI Lab](https://sites.google.com/view/sungjoon-choi/home)
     gallery:
     description:
       - Developed an affordance-aware dexterous grasp generation pipeline from segmented 3D point clouds.
