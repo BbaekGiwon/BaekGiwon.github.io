@@ -45,10 +45,14 @@
             <div><span>{{ site.email }}</span></div>
           </a></li>
         {% endif %}
-        {% if site.linkedin_username %}
-          <li><a aria-label="My LinkedIn" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+        {% if site.linkedin_url or site.linkedin_username %}
+          {% assign linkedin_href = site.linkedin_url %}
+          {% unless linkedin_href %}
+            {% assign linkedin_href = site.linkedin_username | prepend: 'https://www.linkedin.com/in/' %}
+          {% endunless %}
+          <li><a aria-label="My LinkedIn" href="{{ linkedin_href }}">
             <img src="{{ '/assets/img/linkedin.svg' | prepend: site.baseurl }}" alt="My LinkedIn">
-            <div><span>@{{ site.linkedin_username }}</span></div>
+            <div><span>LinkedIn</span></div>
           </a></li>
         {% endif %}
         {% if site.github_username %}

@@ -8,8 +8,10 @@ job: "Robotics & Computer Vision Researcher"
 phone_number: +82 010-5268-9514
 address: Seoul, Republic of Korea
 email: 01gwbaek@naver.com
+linkedin_url: 
+linkedin_username: giwon-baek-44164a396
 github_username: BBaekGiwon
-blog_url: https://www.notion.so/26edc5cd9dd88063af07e9755caff4ca
+blog_url: https://ydp-bullggok.tistory.com/
 
 # If your repo name follows the format "<user-name>.github.io", then leave the below blank.
 # Otherwise, set its value as "/<repo-name>". ex) baseurl: /resume
