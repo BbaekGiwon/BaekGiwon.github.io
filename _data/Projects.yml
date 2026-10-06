@@ -5,10 +5,11 @@ contents:
   # ── Research ──────────────────────────────────────────────
   - title: RLWRLD Conveyor Demo — [KU RI Lab](https://sites.google.com/view/sungjoon-choi/home)
     gallery:
+      - image: /assets/img/projects/proj_RILAB_01.gif
     description:
-      - Developed an affordance-aware dexterous grasp generation pipeline from segmented 3D point clouds.
-      - Made a modular grasping framework with integrating Large-Language models, part-aware segmentation, and grasp pose generation.
-      - Generated training data using NVIDIA Isaac Gym and deployed on a real robot via ROS 2.
+      - Collected bimanual manipulation demonstrations through teleoperation with FFW-LG2.
+      - Fine-tuned RLDX and GR00T and deployed the policies on FFW-SH5.
+      - VLA data prerprocessing using VLM-based subtask labeling and trajectory pruning by removing low-motion.
     date: 2026
 
 
