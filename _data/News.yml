@@ -2,6 +2,8 @@ subject: News
 listing-order: 0
 icon: "/assets/img/news.svg"
 contents:
+  - date: Oct 2026
+    title: Joined RLWRLD RD department as a Robotics Deployment Engineer Intern.
   - date: Aug 2026
     title: Joined Korea University RI Lab as a Robotics Research Intern under the supervision of Sungjoon Choi, working on Vision-Language-Action Model.
   - date: Mar 2026

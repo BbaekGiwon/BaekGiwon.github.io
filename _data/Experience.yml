@@ -2,6 +2,13 @@ subject: Experiences
 listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
+  - title: [RLWRLD RD department](https://www.rlwrld.ai/ko/company)
+    logo: /assets/img/logos/RLWRLD.png
+    role: Robotics Deployment Engineer Intern
+    description:
+      - Coming soon
+    date: Oct. 2026 - Jan. 2027
+
   - title: Korea University [RI Lab](https://sites.google.com/view/sungjoon-choi/home)
     logo: /assets/img/logos/KU.svg
     role: Robotics Research Intern
@@ -9,7 +16,8 @@ contents:
       - Participating in RLWRLD projects on vision-language-action (VLA) learning for humanoid manipulation.
       - Developing data collection and training pipelines for bimanual manipulation using teleoperation demonstrations.
       - Exploring VLM-based automated labeling of subtask instructions for VLA training data.
-    date: Aug. 2026 - Feb. 2027
+      - Preprocessing VLA trajectory data by removing low-motion segments.
+    date: Aug. 2026 - Oct. 2026
 
   - title: Korea Institute of Science and Technology (KIST) [HARI Lab](https://sites.google.com/view/harilab/home?authuser=0)
     logo: /assets/img/logos/KIST.svg
