@@ -2,7 +2,7 @@ subject: Experiences
 listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
-  - title: [RLWRLD RD department](https://www.rlwrld.ai/ko/company)
+  - title: "[RLWRLD RD department](https://www.rlwrld.ai/ko/company)"
     logo: /assets/img/logos/RLWRLD.png
     role: Robotics Deployment Engineer Intern
     description:
