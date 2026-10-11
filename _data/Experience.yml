@@ -3,7 +3,7 @@ listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
   - title: "[RLWRLD RD department](https://www.rlwrld.ai/ko/company)"
-    logo: /assets/img/logos/RLWRLD.png
+    logo: /assets/img/logos/RLWRLD.jpeg
     role: Robotics Deployment Engineer Intern
     description:
       - Coming soon
